@@ -13,14 +13,14 @@
 
 <body>
 
-<div class="container">
+<div th:action="@{/design}" class="container">
 
     <br>
 
     <h1>Welcome to Pizza Cloud!</h1>
-    <img/>
+    <img th:src="@{/images/pizza.png}"/>
 
-    <h2><a class="btn btn-primary" th:href="@{/design}">Create your pizza</a></h2>
+    <h2><a class="btn btn-primary"  th:href="@{/design}">Create your pizza</a></h2>
 
 </div>
 
